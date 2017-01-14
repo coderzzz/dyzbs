@@ -14,16 +14,16 @@
 		E2D40E971E29D4280030F069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D40E931E29D4280030F069 /* LaunchScreen.storyboard */; };
 		E2D40E981E29D4280030F069 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2D40E951E29D4280030F069 /* Info.plist */; };
 		E2D40E9A1E29D43E0030F069 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E991E29D43E0030F069 /* TabbarViewController.swift */; };
-		E2D40EB11E29F2140030F069 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EAF1E29F2140030F069 /* HomeViewController.swift */; };
-		E2D40EB21E29F2140030F069 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EB01E29F2140030F069 /* HomeViewController.xib */; };
-		E2D40EB51E29F2510030F069 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EB31E29F2510030F069 /* LiveViewController.swift */; };
-		E2D40EB61E29F2510030F069 /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EB41E29F2510030F069 /* LiveViewController.xib */; };
-		E2D40EB91E29F3BA0030F069 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EB71E29F3BA0030F069 /* FocusViewController.swift */; };
-		E2D40EBA1E29F3BA0030F069 /* FocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EB81E29F3BA0030F069 /* FocusViewController.xib */; };
-		E2D40EBD1E29F4390030F069 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EBB1E29F4390030F069 /* DiscoverViewController.swift */; };
-		E2D40EBE1E29F4390030F069 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EBC1E29F4390030F069 /* DiscoverViewController.xib */; };
-		E2D40EC11E29F44B0030F069 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EBF1E29F44B0030F069 /* MineViewController.swift */; };
-		E2D40EC21E29F44B0030F069 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EC01E29F44B0030F069 /* MineViewController.xib */; };
+		E2D40EFB1E29F7780030F069 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EE01E29F7780030F069 /* DiscoverViewController.swift */; };
+		E2D40EFC1E29F7780030F069 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EE11E29F7780030F069 /* DiscoverViewController.xib */; };
+		E2D40EFD1E29F7780030F069 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EE61E29F7780030F069 /* FocusViewController.swift */; };
+		E2D40EFE1E29F7780030F069 /* FocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EE71E29F7780030F069 /* FocusViewController.xib */; };
+		E2D40EFF1E29F7780030F069 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EEC1E29F7780030F069 /* HomeViewController.swift */; };
+		E2D40F001E29F7780030F069 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EED1E29F7780030F069 /* HomeViewController.xib */; };
+		E2D40F011E29F7780030F069 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EF21E29F7780030F069 /* LiveViewController.swift */; };
+		E2D40F021E29F7780030F069 /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EF31E29F7780030F069 /* LiveViewController.xib */; };
+		E2D40F031E29F7780030F069 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40EF81E29F7780030F069 /* MineViewController.swift */; };
+		E2D40F041E29F7780030F069 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D40EF91E29F7780030F069 /* MineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,16 +35,16 @@
 		E2D40E941E29D4280030F069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D40E951E29D4280030F069 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D40E991E29D43E0030F069 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
-		E2D40EAF1E29F2140030F069 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E2D40EB01E29F2140030F069 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		E2D40EB31E29F2510030F069 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
-		E2D40EB41E29F2510030F069 /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
-		E2D40EB71E29F3BA0030F069 /* FocusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
-		E2D40EB81E29F3BA0030F069 /* FocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FocusViewController.xib; sourceTree = "<group>"; };
-		E2D40EBB1E29F4390030F069 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		E2D40EBC1E29F4390030F069 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
-		E2D40EBF1E29F44B0030F069 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
-		E2D40EC01E29F44B0030F069 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		E2D40EE01E29F7780030F069 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		E2D40EE11E29F7780030F069 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		E2D40EE61E29F7780030F069 /* FocusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		E2D40EE71E29F7780030F069 /* FocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FocusViewController.xib; sourceTree = "<group>"; };
+		E2D40EEC1E29F7780030F069 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2D40EED1E29F7780030F069 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E2D40EF21E29F7780030F069 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		E2D40EF31E29F7780030F069 /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		E2D40EF81E29F7780030F069 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		E2D40EF91E29F7780030F069 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				E2D40E771E29BE220030F069 /* AppDelegate.swift */,
-				E2D40E9B1E29D9F80030F069 /* Home */,
-				E2D40EA71E29D9F80030F069 /* Live */,
-				E2D40EAB1E29D9F80030F069 /* Focus */,
-				E2D40EA31E29D9F80030F069 /* Discover */,
-				E2D40E9F1E29D9F80030F069 /* Mine */,
+				E2D40EE91E29F7780030F069 /* Home */,
+				E2D40EEF1E29F7780030F069 /* Live */,
+				E2D40EE31E29F7780030F069 /* Focus */,
+				E2D40EDD1E29F7780030F069 /* Discover */,
+				E2D40EF51E29F7780030F069 /* Mine */,
 				E2D40E8B1E29D2020030F069 /* BaseVC */,
 				E2D40E8C1E29D23F0030F069 /* Resourse */,
 			);
@@ -117,170 +117,165 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		E2D40E9B1E29D9F80030F069 /* Home */ = {
+		E2D40EDD1E29F7780030F069 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40E9C1E29D9F80030F069 /* Model */,
-				E2D40E9D1E29D9F80030F069 /* VC */,
-				E2D40E9E1E29D9F80030F069 /* View */,
+				E2D40EDE1E29F7780030F069 /* Model */,
+				E2D40EDF1E29F7780030F069 /* VC */,
+				E2D40EE21E29F7780030F069 /* View */,
 			);
-			name = Home;
-			path = BaseVC/Home;
+			path = Discover;
 			sourceTree = "<group>";
 		};
-		E2D40E9C1E29D9F80030F069 /* Model */ = {
+		E2D40EDE1E29F7780030F069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E2D40E9D1E29D9F80030F069 /* VC */ = {
+		E2D40EDF1E29F7780030F069 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EAF1E29F2140030F069 /* HomeViewController.swift */,
-				E2D40EB01E29F2140030F069 /* HomeViewController.xib */,
+				E2D40EE01E29F7780030F069 /* DiscoverViewController.swift */,
+				E2D40EE11E29F7780030F069 /* DiscoverViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
 		};
-		E2D40E9E1E29D9F80030F069 /* View */ = {
+		E2D40EE21E29F7780030F069 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E2D40E9F1E29D9F80030F069 /* Mine */ = {
+		E2D40EE31E29F7780030F069 /* Focus */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EA01E29D9F80030F069 /* Model */,
-				E2D40EA11E29D9F80030F069 /* VC */,
-				E2D40EA21E29D9F80030F069 /* View */,
+				E2D40EE41E29F7780030F069 /* Model */,
+				E2D40EE51E29F7780030F069 /* VC */,
+				E2D40EE81E29F7780030F069 /* View */,
 			);
-			name = Mine;
-			path = BaseVC/Mine;
+			path = Focus;
 			sourceTree = "<group>";
 		};
-		E2D40EA01E29D9F80030F069 /* Model */ = {
+		E2D40EE41E29F7780030F069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E2D40EA11E29D9F80030F069 /* VC */ = {
+		E2D40EE51E29F7780030F069 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EBF1E29F44B0030F069 /* MineViewController.swift */,
-				E2D40EC01E29F44B0030F069 /* MineViewController.xib */,
+				E2D40EE61E29F7780030F069 /* FocusViewController.swift */,
+				E2D40EE71E29F7780030F069 /* FocusViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
 		};
-		E2D40EA21E29D9F80030F069 /* View */ = {
+		E2D40EE81E29F7780030F069 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E2D40EA31E29D9F80030F069 /* Discover */ = {
+		E2D40EE91E29F7780030F069 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EA41E29D9F80030F069 /* Model */,
-				E2D40EA51E29D9F80030F069 /* VC */,
-				E2D40EA61E29D9F80030F069 /* View */,
+				E2D40EEA1E29F7780030F069 /* Model */,
+				E2D40EEB1E29F7780030F069 /* VC */,
+				E2D40EEE1E29F7780030F069 /* View */,
 			);
-			name = Discover;
-			path = BaseVC/Discover;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		E2D40EA41E29D9F80030F069 /* Model */ = {
+		E2D40EEA1E29F7780030F069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E2D40EA51E29D9F80030F069 /* VC */ = {
+		E2D40EEB1E29F7780030F069 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EBB1E29F4390030F069 /* DiscoverViewController.swift */,
-				E2D40EBC1E29F4390030F069 /* DiscoverViewController.xib */,
+				E2D40EEC1E29F7780030F069 /* HomeViewController.swift */,
+				E2D40EED1E29F7780030F069 /* HomeViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
 		};
-		E2D40EA61E29D9F80030F069 /* View */ = {
+		E2D40EEE1E29F7780030F069 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E2D40EA71E29D9F80030F069 /* Live */ = {
+		E2D40EEF1E29F7780030F069 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EA81E29D9F80030F069 /* Model */,
-				E2D40EA91E29D9F80030F069 /* VC */,
-				E2D40EAA1E29D9F80030F069 /* View */,
+				E2D40EF01E29F7780030F069 /* Model */,
+				E2D40EF11E29F7780030F069 /* VC */,
+				E2D40EF41E29F7780030F069 /* View */,
 			);
-			name = Live;
-			path = BaseVC/Live;
+			path = Live;
 			sourceTree = "<group>";
 		};
-		E2D40EA81E29D9F80030F069 /* Model */ = {
+		E2D40EF01E29F7780030F069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E2D40EA91E29D9F80030F069 /* VC */ = {
+		E2D40EF11E29F7780030F069 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EB31E29F2510030F069 /* LiveViewController.swift */,
-				E2D40EB41E29F2510030F069 /* LiveViewController.xib */,
+				E2D40EF21E29F7780030F069 /* LiveViewController.swift */,
+				E2D40EF31E29F7780030F069 /* LiveViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
 		};
-		E2D40EAA1E29D9F80030F069 /* View */ = {
+		E2D40EF41E29F7780030F069 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E2D40EAB1E29D9F80030F069 /* Focus */ = {
+		E2D40EF51E29F7780030F069 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EAC1E29D9F80030F069 /* Model */,
-				E2D40EAD1E29D9F80030F069 /* VC */,
-				E2D40EAE1E29D9F80030F069 /* View */,
+				E2D40EF61E29F7780030F069 /* Model */,
+				E2D40EF71E29F7780030F069 /* VC */,
+				E2D40EFA1E29F7780030F069 /* View */,
 			);
-			name = Focus;
-			path = BaseVC/Focus;
+			path = Mine;
 			sourceTree = "<group>";
 		};
-		E2D40EAC1E29D9F80030F069 /* Model */ = {
+		E2D40EF61E29F7780030F069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E2D40EAD1E29D9F80030F069 /* VC */ = {
+		E2D40EF71E29F7780030F069 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EB71E29F3BA0030F069 /* FocusViewController.swift */,
-				E2D40EB81E29F3BA0030F069 /* FocusViewController.xib */,
+				E2D40EF81E29F7780030F069 /* MineViewController.swift */,
+				E2D40EF91E29F7780030F069 /* MineViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
 		};
-		E2D40EAE1E29D9F80030F069 /* View */ = {
+		E2D40EFA1E29F7780030F069 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -345,14 +340,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D40F021E29F7780030F069 /* LiveViewController.xib in Resources */,
 				E2D40E961E29D4280030F069 /* Assets.xcassets in Resources */,
+				E2D40EFC1E29F7780030F069 /* DiscoverViewController.xib in Resources */,
 				E2D40E971E29D4280030F069 /* LaunchScreen.storyboard in Resources */,
+				E2D40EFE1E29F7780030F069 /* FocusViewController.xib in Resources */,
 				E2D40E981E29D4280030F069 /* Info.plist in Resources */,
-				E2D40EB61E29F2510030F069 /* LiveViewController.xib in Resources */,
-				E2D40EB21E29F2140030F069 /* HomeViewController.xib in Resources */,
-				E2D40EBE1E29F4390030F069 /* DiscoverViewController.xib in Resources */,
-				E2D40EBA1E29F3BA0030F069 /* FocusViewController.xib in Resources */,
-				E2D40EC21E29F44B0030F069 /* MineViewController.xib in Resources */,
+				E2D40F001E29F7780030F069 /* HomeViewController.xib in Resources */,
+				E2D40F041E29F7780030F069 /* MineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,15 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D40EB11E29F2140030F069 /* HomeViewController.swift in Sources */,
 				E2D40E9A1E29D43E0030F069 /* TabbarViewController.swift in Sources */,
-				E2D40EC11E29F44B0030F069 /* MineViewController.swift in Sources */,
+				E2D40EFD1E29F7780030F069 /* FocusViewController.swift in Sources */,
+				E2D40F031E29F7780030F069 /* MineViewController.swift in Sources */,
+				E2D40F011E29F7780030F069 /* LiveViewController.swift in Sources */,
 				E2D40E901E29D3880030F069 /* BaseViewController.swift in Sources */,
-				E2D40EB91E29F3BA0030F069 /* FocusViewController.swift in Sources */,
 				E2D40E8E1E29D2A00030F069 /* BaseNavgationController.swift in Sources */,
-				E2D40EBD1E29F4390030F069 /* DiscoverViewController.swift in Sources */,
-				E2D40EB51E29F2510030F069 /* LiveViewController.swift in Sources */,
 				E2D40E781E29BE220030F069 /* AppDelegate.swift in Sources */,
+				E2D40EFF1E29F7780030F069 /* HomeViewController.swift in Sources */,
+				E2D40EFB1E29F7780030F069 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
