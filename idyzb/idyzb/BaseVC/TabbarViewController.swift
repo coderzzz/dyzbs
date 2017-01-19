@@ -18,7 +18,6 @@ class TabbarViewController: UITabBarController {
         let item1 = UITabBarItem (title: "首页", image: UIImage(named: "tabbar_home"), selectedImage: UIImage(named: "tabbar_home_selected"))
         let vc = HomeViewController()
         vc.tabBarItem = item1;
-        vc.view.backgroundColor = UIColor.blueColor()
         let nav = BaseNavgationController(rootViewController:vc)
         
         let litme = UITabBarItem()

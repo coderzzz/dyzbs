@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A3417106F0953DB8F7ED3A7 /* Pods_idyzb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB71C15FAD5B891DEC037881 /* Pods_idyzb.framework */; };
+		E296358D1E306602004713B4 /* ZZScorllTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296358C1E306602004713B4 /* ZZScorllTitleView.swift */; };
+		E296358F1E306EEB004713B4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296358E1E306EEB004713B4 /* Common.swift */; };
 		E2D40E781E29BE220030F069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E771E29BE220030F069 /* AppDelegate.swift */; };
 		E2D40E8E1E29D2A00030F069 /* BaseNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E8D1E29D2A00030F069 /* BaseNavgationController.swift */; };
 		E2D40E901E29D3880030F069 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E8F1E29D3880030F069 /* BaseViewController.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		9D362A7EB68E418201E3A796 /* Pods-idyzb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idyzb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idyzb/Pods-idyzb.debug.xcconfig"; sourceTree = "<group>"; };
 		AB71C15FAD5B891DEC037881 /* Pods_idyzb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idyzb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E296358C1E306602004713B4 /* ZZScorllTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZScorllTitleView.swift; sourceTree = "<group>"; };
+		E296358E1E306EEB004713B4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		E2D40E741E29BE220030F069 /* idyzb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idyzb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D40E771E29BE220030F069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D40E8D1E29D2A00030F069 /* BaseNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavgationController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,28 @@
 				F1BA9D8D1E01E675D61C2F7D /* Pods-idyzb.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E29635891E3063A2004713B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E296358A1E3063A2004713B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E296358C1E306602004713B4 /* ZZScorllTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E296358B1E3063A2004713B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E2D40E6B1E29BE220030F069 = {
@@ -213,18 +239,12 @@
 		E2D40EE91E29F7780030F069 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E2D40EEA1E29F7780030F069 /* Model */,
+				E296358A1E3063A2004713B4 /* View */,
 				E2D40EEB1E29F7780030F069 /* VC */,
-				E2D40EEE1E29F7780030F069 /* View */,
+				E296358B1E3063A2004713B4 /* ViewModel */,
+				E29635891E3063A2004713B4 /* Model */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		E2D40EEA1E29F7780030F069 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		E2D40EEB1E29F7780030F069 /* VC */ = {
@@ -234,13 +254,6 @@
 				E2D40EED1E29F7780030F069 /* HomeViewController.xib */,
 			);
 			path = VC;
-			sourceTree = "<group>";
-		};
-		E2D40EEE1E29F7780030F069 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		E2D40EEF1E29F7780030F069 /* Live */ = {
@@ -313,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				E2D40F0B1E2F19A80030F069 /* NetworkTool.swift */,
+				E296358E1E306EEB004713B4 /* Common.swift */,
 			);
 			name = ZZTool;
 			path = Resourse/ZZTool;
@@ -449,9 +463,11 @@
 				E2D40EFD1E29F7780030F069 /* FocusViewController.swift in Sources */,
 				E2D40F031E29F7780030F069 /* MineViewController.swift in Sources */,
 				E2D40F011E29F7780030F069 /* LiveViewController.swift in Sources */,
+				E296358F1E306EEB004713B4 /* Common.swift in Sources */,
 				E2D40F0C1E2F19A80030F069 /* NetworkTool.swift in Sources */,
 				E2D40E901E29D3880030F069 /* BaseViewController.swift in Sources */,
 				E2D40E8E1E29D2A00030F069 /* BaseNavgationController.swift in Sources */,
+				E296358D1E306602004713B4 /* ZZScorllTitleView.swift in Sources */,
 				E2D40E781E29BE220030F069 /* AppDelegate.swift in Sources */,
 				E2D40EFF1E29F7780030F069 /* HomeViewController.swift in Sources */,
 				E2D40EFB1E29F7780030F069 /* DiscoverViewController.swift in Sources */,

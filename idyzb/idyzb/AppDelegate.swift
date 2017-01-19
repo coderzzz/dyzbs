@@ -20,11 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.rootViewController = TabbarViewController()
         window?.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.width, UIScreen.mainScreen().bounds.height)
-//        window?.makeKeyAndVisible()
-        
-        NetworkTool.requestWithUrlString("www.baidu.com")
-        
-        
+        window?.makeKeyAndVisible()
         return true
     }
 

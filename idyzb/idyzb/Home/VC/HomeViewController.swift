@@ -13,7 +13,10 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let rect = CGRect(x: 0, y: 64, width: kScreenW, height: 40)
+        let titleview = ZZScorllTitleView(frame: rect, titles: ["title1","title2"])
+        view .addSubview(titleview)
+        
     }
 
     override func didReceiveMemoryWarning() {

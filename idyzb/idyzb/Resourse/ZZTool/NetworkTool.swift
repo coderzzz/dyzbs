@@ -9,21 +9,30 @@
 import UIKit
 import Alamofire
 
-
+public enum MethodType :String {
+    case POST ,GET
+}
 
 class NetworkTool: NSObject {
 
-    
-    
-    class func requestWithUrlString(url:String ,parameters: [String: AnyObject]? = nil) {
-    
+    class func requestWithUrlString(url:String ,method: MethodType ,parameters: [String: AnyObject]? = nil ,completionHandler: Response<NSData, NSError> -> Void) {
+
         
+        guard  method == .GET else{
+            
+            Alamofire.request(.POST,url,parameters: parameters).responseData { (response) in
+                
+                completionHandler(response)
+            }
+            
+            return
+        }
         
         Alamofire.request(.GET,url,parameters: parameters).responseData { (response) in
             
-             print("request: \(response.debugDescription)")
+            completionHandler(response)
         }
-    
+
     }
     
 }
