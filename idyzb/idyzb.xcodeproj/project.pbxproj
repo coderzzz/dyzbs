@@ -10,6 +10,7 @@
 		8A3417106F0953DB8F7ED3A7 /* Pods_idyzb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB71C15FAD5B891DEC037881 /* Pods_idyzb.framework */; };
 		E296358D1E306602004713B4 /* ZZScorllTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296358C1E306602004713B4 /* ZZScorllTitleView.swift */; };
 		E296358F1E306EEB004713B4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E296358E1E306EEB004713B4 /* Common.swift */; };
+		E29635911E30B272004713B4 /* ZZScrollContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29635901E30B272004713B4 /* ZZScrollContentView.swift */; };
 		E2D40E781E29BE220030F069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E771E29BE220030F069 /* AppDelegate.swift */; };
 		E2D40E8E1E29D2A00030F069 /* BaseNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E8D1E29D2A00030F069 /* BaseNavgationController.swift */; };
 		E2D40E901E29D3880030F069 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D40E8F1E29D3880030F069 /* BaseViewController.swift */; };
@@ -35,6 +36,7 @@
 		AB71C15FAD5B891DEC037881 /* Pods_idyzb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idyzb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E296358C1E306602004713B4 /* ZZScorllTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZScorllTitleView.swift; sourceTree = "<group>"; };
 		E296358E1E306EEB004713B4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E29635901E30B272004713B4 /* ZZScrollContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZScrollContentView.swift; sourceTree = "<group>"; };
 		E2D40E741E29BE220030F069 /* idyzb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idyzb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D40E771E29BE220030F069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D40E8D1E29D2A00030F069 /* BaseNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavgationController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				E296358C1E306602004713B4 /* ZZScorllTitleView.swift */,
+				E29635901E30B272004713B4 /* ZZScrollContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				E2D40E901E29D3880030F069 /* BaseViewController.swift in Sources */,
 				E2D40E8E1E29D2A00030F069 /* BaseNavgationController.swift in Sources */,
 				E296358D1E306602004713B4 /* ZZScorllTitleView.swift in Sources */,
+				E29635911E30B272004713B4 /* ZZScrollContentView.swift in Sources */,
 				E2D40E781E29BE220030F069 /* AppDelegate.swift in Sources */,
 				E2D40EFF1E29F7780030F069 /* HomeViewController.swift in Sources */,
 				E2D40EFB1E29F7780030F069 /* DiscoverViewController.swift in Sources */,

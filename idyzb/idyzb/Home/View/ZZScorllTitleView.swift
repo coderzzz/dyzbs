@@ -21,6 +21,7 @@ class ZZScorllTitleView: UIView {
     //MARK:-定义属性
     private var titles :[String]
     weak var delegate : ZZScorllTitleViewDelegate?
+    
     //MARK:-定义懒加载属性
     
     private lazy var titleLables :[UILabel] = [UILabel]()
